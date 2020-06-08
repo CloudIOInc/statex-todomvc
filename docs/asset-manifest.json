@@ -5,18 +5,18 @@
     "runtime-main.js": "/statex-todomvc/static/js/runtime-main.7e17371e.js",
     "runtime-main.js.map": "/statex-todomvc/static/js/runtime-main.7e17371e.js.map",
     "static/css/2.85efaca7.chunk.css": "/statex-todomvc/static/css/2.85efaca7.chunk.css",
-    "static/js/2.902cabfd.chunk.js": "/statex-todomvc/static/js/2.902cabfd.chunk.js",
-    "static/js/2.902cabfd.chunk.js.map": "/statex-todomvc/static/js/2.902cabfd.chunk.js.map",
+    "static/js/2.a38916f0.chunk.js": "/statex-todomvc/static/js/2.a38916f0.chunk.js",
+    "static/js/2.a38916f0.chunk.js.map": "/statex-todomvc/static/js/2.a38916f0.chunk.js.map",
     "index.html": "/statex-todomvc/index.html",
-    "precache-manifest.8d9dfe9e7fea3c52e5c670f8a1308def.js": "/statex-todomvc/precache-manifest.8d9dfe9e7fea3c52e5c670f8a1308def.js",
+    "precache-manifest.3a89e30aa4904cecd7bd8506ca357832.js": "/statex-todomvc/precache-manifest.3a89e30aa4904cecd7bd8506ca357832.js",
     "service-worker.js": "/statex-todomvc/service-worker.js",
     "static/css/2.85efaca7.chunk.css.map": "/statex-todomvc/static/css/2.85efaca7.chunk.css.map",
-    "static/js/2.902cabfd.chunk.js.LICENSE.txt": "/statex-todomvc/static/js/2.902cabfd.chunk.js.LICENSE.txt"
+    "static/js/2.a38916f0.chunk.js.LICENSE.txt": "/statex-todomvc/static/js/2.a38916f0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7e17371e.js",
     "static/css/2.85efaca7.chunk.css",
-    "static/js/2.902cabfd.chunk.js",
+    "static/js/2.a38916f0.chunk.js",
     "static/js/main.76ec4141.chunk.js"
   ]
 }

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/statex-todomvc/precache-manifest.8d9dfe9e7fea3c52e5c670f8a1308def.js"
+  "/statex-todomvc/precache-manifest.3a89e30aa4904cecd7bd8506ca357832.js"
 );
 
 self.addEventListener('message', (event) => {
