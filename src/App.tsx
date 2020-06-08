@@ -1,26 +1,34 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+/**
+ * Copyright (c) CloudIO, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ *
+ *  https://cloudioinc.github.io/statex/
+ */
+
+import React, { memo } from 'react';
+import TodoFooter from './TodoFooter';
+import TodoList from './TodoList';
+import TodoHeader from './TodoHeader';
+import ToggleAll from './ToggleAll';
+
+import 'todomvc-common/base.css';
+import 'todomvc-app-css/index.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="todoapp">
+      <TodoHeader />
+      <section className="main">
+        <ToggleAll />
+        <ul className="todo-list">
+          <TodoList />
+        </ul>
+      </section>
+      <TodoFooter />
     </div>
   );
 }
 
-export default App;
+export default memo(App);

@@ -1,17 +1,22 @@
+/**
+ * Copyright (c) CloudIO, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ *
+ *  https://cloudioinc.github.io/statex/
+ */
+
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
-import * as serviceWorker from './serviceWorker';
+import { StateXProvider } from '@cloudio/statex';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <StateXProvider>
+      <App />
+    </StateXProvider>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('root'),
 );
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
