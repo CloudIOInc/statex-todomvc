@@ -1,7 +1,7 @@
 {
   "name": "@cloudio/statex-todomvc",
   "version": "1.0.0",
-  "private": false,
+  "private": true,
   "homepage": "https://cloudioinc.github.io/statex-todomvc/",
   "keywords": [
     "react",
@@ -13,7 +13,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@cloudio/statex": "^0.0.6",
+    "@cloudio/statex": "^0.0.9",
     "classnames": "^2.2.6",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -46,10 +46,10 @@
   "devDependencies": {
     "@testing-library/jest-dom": "^5.9.0",
     "@testing-library/react": "^10.2.1",
-    "@testing-library/user-event": "^11.2.1",
+    "@testing-library/user-event": "^11.3.1",
     "@types/classnames": "^2.2.10",
     "@types/jest": "^25.2.3",
-    "@types/node": "^14.0.11",
+    "@types/node": "^14.0.12",
     "@types/react": "^16.9.35",
     "@types/react-dom": "^16.9.8",
     "customize-cra": "^1.0.0",

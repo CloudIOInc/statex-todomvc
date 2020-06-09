@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d4dd494a837b340ff5ce3de82fe767cf",
+    "revision": "e25ae91c7f6be12156a42d4de1dbe061",
     "url": "/statex-todomvc/index.html"
   },
   {
-    "revision": "30a8dd26df58b57d0d68",
+    "revision": "7cb9e8a768689cda5db8",
     "url": "/statex-todomvc/static/css/2.85efaca7.chunk.css"
   },
   {
-    "revision": "30a8dd26df58b57d0d68",
-    "url": "/statex-todomvc/static/js/2.a38916f0.chunk.js"
+    "revision": "7cb9e8a768689cda5db8",
+    "url": "/statex-todomvc/static/js/2.28e4f32b.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/statex-todomvc/static/js/2.a38916f0.chunk.js.LICENSE.txt"
+    "url": "/statex-todomvc/static/js/2.28e4f32b.chunk.js.LICENSE.txt"
   },
   {
     "revision": "da9703d1848f9f3b6a77",

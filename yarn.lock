@@ -1078,10 +1078,12 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@cloudio/statex@^0.0.6":
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/@cloudio/statex/-/statex-0.0.6.tgz#1ac8f6cf5aa64a2c0f4d6c728fb06a682e95b1a1"
-  integrity sha512-URXThx1aHpKPXtwI7/WY4ed8twnft1/3B+qh0ySbnZ0rp3snkRjXKDLFy4lS/QH2rxthi4yT4THR/CgH+p574w==
+"@cloudio/statex@^0.0.9":
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/@cloudio/statex/-/statex-0.0.9.tgz#9eb223973cf5b2cb698a2d0b1b7ed7c8c5e86203"
+  integrity sha512-79P3euw70Qd6keTTaa5iS5f0BaZYUILKSDvYlGG/U+L3SU63B7w5yFuQWhpa/D5ce3NAl+vSBoIx0eF3lIjF/g==
+  dependencies:
+    clsx "^1.1.1"
 
 "@cnakazawa/watch@^1.0.3":
   version "1.0.4"
@@ -1518,10 +1520,10 @@
     "@babel/runtime" "^7.10.2"
     "@testing-library/dom" "^7.9.0"
 
-"@testing-library/user-event@^11.2.1":
-  version "11.2.1"
-  resolved "https://registry.yarnpkg.com/@testing-library/user-event/-/user-event-11.2.1.tgz#2de8327e4cf89c145bcf9a0f17773a632bc58b26"
-  integrity sha512-dwXa4y+9mAp1+wR/1ufFjm5kUHsvJ5Y5dCdaWyU1CXIA7SNSHcEYVWHGjwZNGrxf00Jm16bN57z5gUMsXCzjSA==
+"@testing-library/user-event@^11.3.1":
+  version "11.3.1"
+  resolved "https://registry.yarnpkg.com/@testing-library/user-event/-/user-event-11.3.1.tgz#a5388cfff2c578825144a6665942124a26852aa3"
+  integrity sha512-kiilTC/B48wmEfRunCsU20ndyJmLoFnsxIv9et/s2+tVmNSfErzkVKxhcPKtO5ktM205+qzy6dyR55JiKXIzqQ==
   dependencies:
     "@babel/runtime" "^7.10.2"
 
@@ -1635,10 +1637,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-13.9.2.tgz#ace1880c03594cc3e80206d96847157d8e7fa349"
   integrity sha512-bnoqK579sAYrQbp73wwglccjJ4sfRdKU7WNEZ5FW4K2U6Kc0/eZ5kvXG0JKsEKFB50zrFmfFt52/cvBbZa7eXg==
 
-"@types/node@^14.0.11":
-  version "14.0.11"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.0.11.tgz#61d4886e2424da73b7b25547f59fdcb534c165a3"
-  integrity sha512-lCvvI24L21ZVeIiyIUHZ5Oflv1hhHQ5E1S25IRlKIXaRkVgmXpJMI3wUJkmym2bTbCe+WoIibQnMVAU3FguaOg==
+"@types/node@^14.0.12":
+  version "14.0.12"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.0.12.tgz#9c1d8ffb8084e8936603a6122a7649e40e68e04b"
+  integrity sha512-/sjzehvjkkpvLpYtN6/2dv5kg41otMGuHQUt9T2aiAuIfleCQRQHXXzF1eAw/qkZTj5Kcf4JSTf7EIizHocy6Q==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
@@ -3134,6 +3136,11 @@ clone-response@^1.0.2:
   integrity sha1-0dyXOSAxTfZ/vrlCI7TuNQI56Ws=
   dependencies:
     mimic-response "^1.0.0"
+
+clsx@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/clsx/-/clsx-1.1.1.tgz#98b3134f9abbdf23b2663491ace13c5c03a73188"
+  integrity sha512-6/bPho624p3S2pMyvP5kKBPXnI3ufHLObBFCfgx+LkeR5lg2XYy2hqZqUf45ypD8COn2bhgGJSUE+l5dhNBieA==
 
 co@^4.6.0:
   version "4.6.0"
