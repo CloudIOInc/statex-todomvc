@@ -7,7 +7,7 @@
  *  https://cloudioinc.github.io/statex/
  */
 
-import { atom, selector } from '@cloudio/statex';
+import { atom, selector, action } from '@cloudio/statex';
 import { Todo, Filter, Stats } from './types';
 
 const initialTodos: Todo[] = [
@@ -25,6 +25,32 @@ function getId() {
 const todoList = atom({
   path: ['todo', 'list'],
   defaultValue: initialTodos,
+});
+
+const createTodoAction = action(({ set }, text: string) => {
+  set(todoList, (oldTodoList) => [
+    {
+      id: getId(),
+      text: text.trim() || 'Empty Todo!',
+    },
+    ...oldTodoList,
+  ]);
+});
+
+const toggleAllAction = action(({ get, set }, event: React.ChangeEvent) => {
+  let todos = get(todoList);
+  const hasActive = todos.find((todo) => !todo.isComplete);
+  let updatedTodos: Todo[];
+  if (hasActive) {
+    updatedTodos = todos.map((todo) => {
+      return todo.isComplete ? todo : { ...todo, isComplete: true };
+    });
+  } else {
+    updatedTodos = todos.map((todo) => {
+      return !todo.isComplete ? todo : { ...todo, isComplete: false };
+    });
+  }
+  set(todoList, updatedTodos);
 });
 
 const todoFilterAtom = atom<Filter>({
@@ -85,9 +111,11 @@ const todoListStatsState = selector<Stats>({
 });
 
 export {
+  createTodoAction,
   getId,
+  todoFilterAtom,
+  todoFilteredIdAndIndex,
   todoList,
   todoListStatsState,
-  todoFilteredIdAndIndex,
-  todoFilterAtom,
+  toggleAllAction,
 };

@@ -9,18 +9,14 @@
 
 import React, { useState, memo } from 'react';
 import cx from 'classnames';
-import {
-  useStateXForTextInput,
-  useStateXForCheckbox,
-  useStateXValueRemover,
-} from '@cloudio/statex';
+import { useStateX, useStateXValueRemover } from '@cloudio/statex';
 
 function TodoItem({ index }: { index: number }) {
   const [editing, setEditing] = useState(false);
-  const text = useStateXForTextInput(['todo', 'list', ':index', 'text'], '', {
+  const [text, setText] = useStateX(['todo', 'list', ':index', 'text'], '', {
     params: { index },
   });
-  const isComplete = useStateXForCheckbox(
+  const [isComplete, setIsComplete] = useStateX(
     ['todo', 'list', ':index', 'isComplete'],
     false,
     { params: { index } },
@@ -32,21 +28,27 @@ function TodoItem({ index }: { index: number }) {
   return (
     <li
       className={cx({
-        completed: isComplete.checked,
+        completed: isComplete,
         editing: editing,
       })}>
       {!editing ? (
         <div className="view">
-          <input className="toggle" {...isComplete} />
-          <label onDoubleClick={(e) => setEditing(true)}>{text.value}</label>
+          <input
+            checked={isComplete}
+            className="toggle"
+            onChange={(e) => setIsComplete(e.target.checked)}
+            type="checkbox"
+          />
+          <label onDoubleClick={() => setEditing(true)}>{text}</label>
           <button className="destroy" onClick={deleteItem} />
         </div>
       ) : (
         <input
           autoFocus
           className="edit"
-          onBlur={(e) => setEditing(false)}
-          {...text}
+          onBlur={() => setEditing(false)}
+          onChange={(e) => setText(e.target.value)}
+          value={text}
         />
       )}
     </li>

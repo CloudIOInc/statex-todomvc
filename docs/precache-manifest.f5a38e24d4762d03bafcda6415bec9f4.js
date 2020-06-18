@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "acebe40a4d33e418b3c6f3c310dade33",
+    "revision": "9319d0e43c9ffb97d9e87c14a9518bb8",
     "url": "/statex-todomvc/index.html"
   },
   {
-    "revision": "9500ed51773d50286a6f",
+    "revision": "f4acf7c2081a30b390f7",
     "url": "/statex-todomvc/static/css/2.85efaca7.chunk.css"
   },
   {
-    "revision": "9500ed51773d50286a6f",
-    "url": "/statex-todomvc/static/js/2.4e95181d.chunk.js"
+    "revision": "f4acf7c2081a30b390f7",
+    "url": "/statex-todomvc/static/js/2.87a6b9b4.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/statex-todomvc/static/js/2.4e95181d.chunk.js.LICENSE.txt"
+    "url": "/statex-todomvc/static/js/2.87a6b9b4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "da9703d1848f9f3b6a77",
-    "url": "/statex-todomvc/static/js/main.76ec4141.chunk.js"
+    "revision": "d89708be469c123ee4d7",
+    "url": "/statex-todomvc/static/js/main.1c6d30ed.chunk.js"
   },
   {
     "revision": "de41be6bd582f2ac4db8",

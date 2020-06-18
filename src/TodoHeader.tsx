@@ -8,31 +8,20 @@
  */
 
 import React, { memo, useState } from 'react';
-import { useStateXValueSetter } from '@cloudio/statex';
-import { getId, todoList } from './state';
+import { useStateXAction } from '@cloudio/statex';
+import { createTodoAction } from './state';
 
 function TodoHeader() {
   const [inputValue, setInputValue] = useState('');
-  const setTodoList = useStateXValueSetter(todoList);
-
-  const addItem = () => {
-    setTodoList((oldTodoList) => [
-      ...oldTodoList,
-      {
-        id: getId(),
-        text: inputValue,
-      },
-    ]);
-    setInputValue('');
-  };
+  const createTodo = useStateXAction(createTodoAction);
 
   function handleNewTodoKeyDown(event: React.KeyboardEvent) {
     if (event.keyCode !== 13) {
       return;
     }
 
-    event.preventDefault();
-    addItem();
+    createTodo(inputValue);
+    setInputValue('');
   }
 
   return (

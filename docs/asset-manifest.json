@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.js": "/statex-todomvc/static/js/main.76ec4141.chunk.js",
-    "main.js.map": "/statex-todomvc/static/js/main.76ec4141.chunk.js.map",
+    "main.js": "/statex-todomvc/static/js/main.1c6d30ed.chunk.js",
+    "main.js.map": "/statex-todomvc/static/js/main.1c6d30ed.chunk.js.map",
     "runtime-main.js": "/statex-todomvc/static/js/runtime-main.7e17371e.js",
     "runtime-main.js.map": "/statex-todomvc/static/js/runtime-main.7e17371e.js.map",
     "static/css/2.85efaca7.chunk.css": "/statex-todomvc/static/css/2.85efaca7.chunk.css",
-    "static/js/2.4e95181d.chunk.js": "/statex-todomvc/static/js/2.4e95181d.chunk.js",
-    "static/js/2.4e95181d.chunk.js.map": "/statex-todomvc/static/js/2.4e95181d.chunk.js.map",
+    "static/js/2.87a6b9b4.chunk.js": "/statex-todomvc/static/js/2.87a6b9b4.chunk.js",
+    "static/js/2.87a6b9b4.chunk.js.map": "/statex-todomvc/static/js/2.87a6b9b4.chunk.js.map",
     "index.html": "/statex-todomvc/index.html",
-    "precache-manifest.6a2be5c7d4b680f731aec315bc08aef7.js": "/statex-todomvc/precache-manifest.6a2be5c7d4b680f731aec315bc08aef7.js",
+    "precache-manifest.f5a38e24d4762d03bafcda6415bec9f4.js": "/statex-todomvc/precache-manifest.f5a38e24d4762d03bafcda6415bec9f4.js",
     "service-worker.js": "/statex-todomvc/service-worker.js",
     "static/css/2.85efaca7.chunk.css.map": "/statex-todomvc/static/css/2.85efaca7.chunk.css.map",
-    "static/js/2.4e95181d.chunk.js.LICENSE.txt": "/statex-todomvc/static/js/2.4e95181d.chunk.js.LICENSE.txt"
+    "static/js/2.87a6b9b4.chunk.js.LICENSE.txt": "/statex-todomvc/static/js/2.87a6b9b4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7e17371e.js",
     "static/css/2.85efaca7.chunk.css",
-    "static/js/2.4e95181d.chunk.js",
-    "static/js/main.76ec4141.chunk.js"
+    "static/js/2.87a6b9b4.chunk.js",
+    "static/js/main.1c6d30ed.chunk.js"
   ]
 }

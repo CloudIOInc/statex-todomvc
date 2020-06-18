@@ -8,28 +8,12 @@
  */
 
 import React, { memo } from 'react';
-import { todoList, todoListStatsState } from './state';
-import { useStateXCallback, useStateXValue } from '@cloudio/statex';
-import { Todo } from './types';
+import { todoListStatsState, toggleAllAction } from './state';
+import { useStateXValue, useStateXAction } from '@cloudio/statex';
 
 function ToggleAll() {
   const { percentCompleted } = useStateXValue(todoListStatsState);
-
-  const toggleAll = useStateXCallback(({ get, set }) => {
-    let todos = get(todoList);
-    const hasActive = todos.find((todo) => !todo.isComplete);
-    let updatedTodos: Todo[];
-    if (hasActive) {
-      updatedTodos = todos.map((todo) => {
-        return todo.isComplete ? todo : { ...todo, isComplete: true };
-      });
-    } else {
-      updatedTodos = todos.map((todo) => {
-        return !todo.isComplete ? todo : { ...todo, isComplete: false };
-      });
-    }
-    set(todoList, updatedTodos);
-  }, []);
+  const toggleAll = useStateXAction(toggleAllAction);
 
   return (
     <>
