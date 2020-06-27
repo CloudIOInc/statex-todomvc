@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.js": "/statex-todomvc/static/js/main.7295c6d8.chunk.js",
-    "main.js.map": "/statex-todomvc/static/js/main.7295c6d8.chunk.js.map",
+    "main.js": "/statex-todomvc/static/js/main.829919a2.chunk.js",
+    "main.js.map": "/statex-todomvc/static/js/main.829919a2.chunk.js.map",
     "runtime-main.js": "/statex-todomvc/static/js/runtime-main.7e17371e.js",
     "runtime-main.js.map": "/statex-todomvc/static/js/runtime-main.7e17371e.js.map",
     "static/css/2.85efaca7.chunk.css": "/statex-todomvc/static/css/2.85efaca7.chunk.css",
-    "static/js/2.21d70871.chunk.js": "/statex-todomvc/static/js/2.21d70871.chunk.js",
-    "static/js/2.21d70871.chunk.js.map": "/statex-todomvc/static/js/2.21d70871.chunk.js.map",
+    "static/js/2.1fba6376.chunk.js": "/statex-todomvc/static/js/2.1fba6376.chunk.js",
+    "static/js/2.1fba6376.chunk.js.map": "/statex-todomvc/static/js/2.1fba6376.chunk.js.map",
     "index.html": "/statex-todomvc/index.html",
-    "precache-manifest.74ab0d2baa11696376dabf881270f350.js": "/statex-todomvc/precache-manifest.74ab0d2baa11696376dabf881270f350.js",
+    "precache-manifest.34964d77849fab50779a024da7819cf3.js": "/statex-todomvc/precache-manifest.34964d77849fab50779a024da7819cf3.js",
     "service-worker.js": "/statex-todomvc/service-worker.js",
     "static/css/2.85efaca7.chunk.css.map": "/statex-todomvc/static/css/2.85efaca7.chunk.css.map",
-    "static/js/2.21d70871.chunk.js.LICENSE.txt": "/statex-todomvc/static/js/2.21d70871.chunk.js.LICENSE.txt"
+    "static/js/2.1fba6376.chunk.js.LICENSE.txt": "/statex-todomvc/static/js/2.1fba6376.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7e17371e.js",
     "static/css/2.85efaca7.chunk.css",
-    "static/js/2.21d70871.chunk.js",
-    "static/js/main.7295c6d8.chunk.js"
+    "static/js/2.1fba6376.chunk.js",
+    "static/js/main.829919a2.chunk.js"
   ]
 }

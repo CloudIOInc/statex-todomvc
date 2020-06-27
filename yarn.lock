@@ -1085,10 +1085,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@cloudio/statex@^0.0.23":
-  version "0.0.23"
-  resolved "https://registry.yarnpkg.com/@cloudio/statex/-/statex-0.0.23.tgz#358eb802d4682ba4d91fd21cde5e6cd2470ffa41"
-  integrity sha512-7q5RqFkzvb/iNYRDi30X81P1WEDRQzFXC83Ts6pypNlaoZFZ6rUU8XG4RrLEC/iQ9ZcmYeTQ/ED1kLQpej9uMA==
+"@cloudio/statex@^0.0.25":
+  version "0.0.25"
+  resolved "https://registry.yarnpkg.com/@cloudio/statex/-/statex-0.0.25.tgz#5da48ec816d4490298bdc56e0fd31a757c21d72e"
+  integrity sha512-wiYmpyVvecanGinA1Ap8lOsWTUdZDUx9a/dY9KY12JvyvH0g4SzxQi5M3gZshZycFQp3M5SDUcZgnki6W+sGNA==
 
 "@cnakazawa/watch@^1.0.3":
   version "1.0.4"
