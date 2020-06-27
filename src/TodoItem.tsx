@@ -8,7 +8,7 @@
  */
 
 import React, { useState, memo } from 'react';
-import cx from 'classnames';
+import cx from 'clsx';
 import { useStateX, useStateXValueRemover } from '@cloudio/statex';
 
 function TodoItem({ index }: { index: number }) {

@@ -8,7 +8,7 @@
  */
 
 import React, { memo } from 'react';
-import cx from 'classnames';
+import cx from 'clsx';
 import { useStateXValue, useStateX } from '@cloudio/statex';
 import { todoListStatsState, todoFilterAtom } from './state';
 import ClearCompleted from './ClearCompleted';

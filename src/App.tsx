@@ -15,6 +15,7 @@ import ToggleAll from './ToggleAll';
 
 import 'todomvc-common/base.css';
 import 'todomvc-app-css/index.css';
+import UndoToolbar from './UndoToolbar';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         </ul>
       </section>
       <TodoFooter />
+      <UndoToolbar />
     </div>
   );
 }
